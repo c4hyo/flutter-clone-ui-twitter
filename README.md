@@ -1,4 +1,4 @@
-# flutter_tutorial_2
+# Flutter, Twitter Clone UI
 
 A new Flutter project.
 
