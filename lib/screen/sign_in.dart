@@ -1,5 +1,6 @@
 import 'package:eva_icons_flutter/eva_icons_flutter.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_tutorial_2/screen/home.dart';
 import 'package:flutter_tutorial_2/screen/sign_up.dart';
 
 class SignInScreen extends StatefulWidget {
@@ -86,7 +87,7 @@ class _SignInScreenState extends State<SignInScreen> {
                     borderRadius: BorderRadius.circular(25)
                       ),
                       onPressed: (){
-                    print('Lanjut gan');
+                        Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>HomeScreen()));
                       },
                   )
                 ],
